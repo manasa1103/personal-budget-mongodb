@@ -6,7 +6,7 @@ const port = 3000;
 const mongoose = require("mongoose");
 
 const budgetSchema = require("./models/budget_schema");
-
+app.use('/',express.static('public'));
 let url = 'mongodb://127.0.0.1:27017/pbmongodb';
 
 app.use(cors());

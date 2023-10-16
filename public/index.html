@@ -33,61 +33,110 @@
     </div>
 
 
-    <!-- This is a Semantic HTML Change -->
-    <header class="hero">
+   <!--SEO Change 4: Used Semantic HTML5 elements-->
+    <!-- SEMANTIC CHANGE 1: using header instead of div for hero section-->
+    <!-- A11y Change 2: Used a descriptive aria-label for the hero section -->
+    <header class="hero" aria-label="Hero Section">
         <h1>Personal Budget</h1>
         <h2>A personal-budget management app</h2>
     </header>
 
-    <!-- This is a Semantic HTML Change -->
-    <main class="center" id="main">
-
-        <div class="page-area">
-            <!-- This is a Semantic HTML Change -->
-            <article>
-                <h1>Stay on track</h1>
-                <p>
-                    Do you know where you are spending your money? If you really stop to track it down,
-                    you would get surprised! Proper budget management depends on real data... and this
-                    app will help you with that!
-                </p>
-            </article>
-
-            <article>
-                <h1>Alerts</h1>
-                <p>
-                    What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
-                </p>
-            </article>
-
-            <article>
-                <h1>Results</h1>
-                <p>
-                    People who stick to a financial plan, budgeting every expense, get out of debt faster!
-                    Also, they to live happier lives... since they expend without guilt or fear...
-                    because they know it is all good and accounted for.
-                </p>
-            </article>
-
-            <article>
-                <h1>Chart</h1>
-                <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
-                </p>
-            </article>
-            <div id="pie-chart"></div>
-
+    <!-- SEMANTIC CHANGE 2: Using a main element to define the main content of the page -->
+    <main>
+        <div class="container">
+    
+            <div class="page-area">
+    
+                <!-- SEMANTIC CHANGE 3: replacing div with section tag -->
+                <section>
+                    <h1>Stay on track</h1>
+                    <p>
+                        Do you know where you are spending your money? If you really stop to track it down,
+                        you would get surprised! Proper budget management depends on real data... and this
+                        app will help you with that!
+                    </p>
+                </section>
+        
+                <section>
+                    <h1>Alerts</h1>
+                    <p>
+                        What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
+                    </p>
+                </section>
+        
+                <section>
+                    <h1>Results</h1>
+                    <p>
+                        People who stick to a financial plan, budgeting every expense, get out of debt faster!
+                        Also, they to live happier lives... since they expend without guilt or fear... 
+                        because they know it is all good and accounted for.
+                    </p>
+                </section>
+        
+                <section>
+                    <h1>Free</h1>
+                    <p>
+                        This app is free!!! And you are the only one holding your data!
+                    </p>
+                </section>
+        
+                <section>
+                    <h1>Stay on track</h1>
+                    <p>
+                        Do you know where you are spending your money? If you really stop to track it down,
+                        you would get surprised! Proper budget management depends on real data... and this
+                        app will help you with that!
+                    </p>
+                </section>
+        
+                <section>
+                    <h1>Alerts</h1>
+                    <p>
+                        What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
+                    </p>
+                </section>
+        
+                <section>
+                    <h1>Results</h1>
+                    <p>
+                        People who stick to a financial plan, budgeting every expense, get out of debt faster!
+                        Also, they to live happier lives... since they expend without guilt or fear... 
+                        because they know it is all good and accounted for.
+                    </p>
+                </section>
+        
+                <section>
+                    <h1>Chart</h1>
+                    <p>
+                        <canvas id="myChart" width="400" height="400"></canvas>
+                    </p>
+                </section>
+                       
+                <section class="text-box">
+                    <h1 tabindex="26
+                    ">D3JS Donut Chart</h1>
+                    <p tabindex="27">
+                    <div id="d3DonutChart"></div>
+                    </p>
+                </section>
+            </div>
         </div>
-
-    </main>
-
-
-    <!-- This is a Semantic HTML Change -->
-    <footer class="bottom">
-        <div class="center">
-            Changes done by Santosh Mohan.
-        </div>
-    </footer>
+        </main>
+    
+        <!-- SEMANTIC CHANGE 4: Using an aside element to define content aside from the main content -->
+        <aside>
+            <h3>Other personal budget management sites:</h3>
+            <ul>
+            <li><a href="https://dfr.oregon.gov/financial/manage/pages/budget.aspx">Oregon.gov</a></li>
+            </ul>
+        </aside>
+    
+        <!-- A11y CHANGE 3: changed div to footer tag-->
+        <footer class="bottom">
+            <div class="center">
+                All rights reserved &copy; Manasa M
+            </div>
+        </footer>
 
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js" integrity="sha512-aoTNnqZcT8B4AmeCFmiSnDlc4Nj/KPaZyB5G7JnOnUEkdNpCZs1LCankiYi01sLTyWy+m2P+W4XM+BuQ3Q4/Dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.min.js" integrity="sha512-7U4rRB8aGAHGVad3u2jiC7GA5/1YhQcQjxKeaVms/bT66i3LVBMRcBI9KwABNWnxOSwulkuSXxZLGuyfvo7V1A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
